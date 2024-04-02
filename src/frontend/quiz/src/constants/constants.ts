@@ -1,0 +1,1 @@
+export const BASE_URL = `https://${import.meta.env.VITE_FRONTEND_API_HOST ?? 'localhost'}:${import.meta.env.VITE_FRONTEND_API_PORT}`
